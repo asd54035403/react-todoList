@@ -32,6 +32,7 @@ export default class Header extends Component {
   render() {
     return (
       <div className="todo-header">
+          <h1 className="title">Alex's React TodoList</h1>
           <input onKeyUp={this.handleKeyUp} type="text" placeholder="請輸入代辦事項，按下Enter確認" />
       </div>
     )
